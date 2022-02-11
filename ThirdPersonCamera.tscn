@@ -4,6 +4,10 @@
 
 [node name="ThirdPersonCamera" type="Spatial"]
 script = ExtResource( 1 )
+rotation_up_action = "camera_rotate_up"
+rotation_down_action = "camera_rotate_down"
+rotation_left_action = "camera_rotate_left"
+rotation_right_action = "camera_rotate_right"
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 5 )
